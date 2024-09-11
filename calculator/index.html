@@ -1,0 +1,41 @@
+<!DOCTYPE <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>calculator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="calculator">
+            <input type="text" id="display" disabled>
+            <div class =" button">
+                <button class="btn" onclick = "clearDisplay()">clear</button>
+                <button class="btn" onclick = "appendValue('7') ">7</button>
+                <button class="btn" onclick = "appendValue('8') ">8</button>
+                <button class="btn" onclick = "appendValue('9') ">9</button>
+                <button class="btn"  id="add">+</button>
+                <button class="btn" onclick = "appendValue('4') ">4</button>
+                <button class="btn" onclick = "appendValue('5') ">5</button>
+                <button class="btn" onclick = "appendValue('6') ">6</button>
+                <button class="btn" id="sub">-</button>
+                <button class="btn" onclick = "appendValue('1') ">1</button>
+                <button class="btn" onclick = "appendValue('2') ">2</button>
+                <button class="btn" onclick = "appendValue('3') ">3</button>
+                <button class="btn" id="div">/</button>
+                <button class="btn" onclick = "appendValue('0') ">0</button>
+                <button class="btn" onclick = "appendValue('.') ">.</button>
+                <button class="btn" id="mul">*</button>
+                <button class="btn" onclick = "appendValue('') " id="equal-btn">=</button>
+            </div>
+        </div>
+        
+        <script src="main.js" async defer></script>
+    </body>
+</html>
